@@ -52,6 +52,7 @@ export default function Home() {
                             />
                         </button>
                             <p className="text-xs text-white mt-2 flex justify-center">1-minute quiz for personalized Insights</p>
+
                     </div>
                     <div className="md:relative sm:absolute sm:top-332 md:top-0 sm:text-center md:text-left">
                         <p className="text-xs text-gray-400 mt-6">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
