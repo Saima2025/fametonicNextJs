@@ -40,7 +40,7 @@ export default function Home() {
                             height={20}
                             className="mr-2"
                         /> Learn from expert-led courses designed for aspiring influencers</p>
-                    <div className="w-2/5 sm:mt-20 md:mt-0">
+                    <div className="md:w-1/2 sm:mt-20 md:mt-0 sm:place-content-center sm:grid md:place-content-start md:flex md:flex-col">
                         <button type="button"
                                 className="inline-flex justify-center md:w-full sm:w-lg mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase ">Get Started
                             <Image
@@ -51,11 +51,10 @@ export default function Home() {
                                 height={15}
                             />
                         </button>
-                            <p className="text-xs text-white mt-2 flex justify-center">1-minute quiz for personalized Insights</p>
-
+                        <p className="text-xs text-white mt-2 flex justify-center mb-8">1-minute quiz for personalized Insights</p>
                     </div>
-                    <div className="md:relative sm:absolute sm:top-332 md:top-0 sm:text-center md:text-left">
-                        <p className="text-xs text-gray-400 mt-6">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
+                    <div className="md:relative sm:absolute sm:top-332 md:top-0 sm:text-center md:text-left sm:pl-8 md:pl-0">
+                        <p className="text-xs text-gray-400 mt-6">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms </p>
                         <p className="text-[10px] text-gray-400 mt-5">Fametonic 2025 ©All Rights Reserved.</p>
                     </div>
                 </div>
