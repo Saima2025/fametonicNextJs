@@ -1,103 +1,75 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    return (
+        <>
+            <div className="bg-neutral-950 sm:flex md:px-15 md:flex-row sm:static">
+                <div className="md:flex md:flex-col sm:z-20 md:z-2 sm:min-w-screen md:min-w-md sm:mt-160 md:mt-0 sm:px-15 md:relative sm:static">
+                    <p className="text-4xl text-white font-bold sm:text-center md:text-left">Want to Turn Social Media Into a Profitable Career?</p>
+                    <p className="text-4xl text-cyan-400 text-shadow-lg/50 [text-shadow:_0_4px_8px_#FC004E] text-[#FC004E] font-bold mt-3
+                     sm:text-center md:text-left">Discover your way to success with Fametonic:</p>
+                    <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center md:mt-3 sm:mt-8">
+                        <Image
+                            src="/home/bulletPoint.png"
+                            alt="Picture of the author"
+                            width={20}
+                            height={20}
+                            className="mr-2"
+                        /> Start growing your influence right away—no waiting required!</p>
+                    <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
+                        <Image
+                            src="/home/bulletPoint.png"
+                            alt="Picture of the author"
+                            width={20}
+                            height={20}
+                            className="mr-2"
+                        /> Create viral TikToks and Reels step by step with easy-to-follow lessons</p>
+                    <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
+                        <Image
+                            src="/home/bulletPoint.png"
+                            alt="Picture of the author"
+                            width={20}
+                            height={20}
+                            className="mr-2"
+                        /> Use a Personal AI Worker to boost your content </p>
+                    <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
+                        <Image
+                            src="/home/bulletPoint.png"
+                            alt="Picture of the author"
+                            width={20}
+                            height={20}
+                            className="mr-2"
+                        /> Learn from expert-led courses designed for aspiring influencers</p>
+                    <div className="w-2/5 sm:mt-20 md:mt-0">
+                        <button type="button"
+                                className="inline-flex justify-center md:w-full sm:w-lg mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase ">Get Started
+                            <Image
+                                src="/home/forwardIcon.svg"
+                                alt="Picture of the author"
+                                className="pl-2"
+                                width={15}
+                                height={15}
+                            />
+                        </button>
+                            <p className="text-xs text-white mt-2 flex justify-center">1-minute quiz for personalized Insights</p>
+                    </div>
+                    <div className="md:relative sm:absolute sm:top-332 md:top-0 sm:text-center md:text-left">
+                        <p className="text-xs text-gray-400 mt-6">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
+                        <p className="text-[10px] text-gray-400 mt-5">Fametonic 2025 ©All Rights Reserved.</p>
+                    </div>
+                </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
-}
+                <div className="md:relative sm:absolute md:top-0 sm:top-80 sm:px-15">
+                    <Image
+                        src="/home/homeImage.svg"
+                        alt="Picture of the author"
+                        width={800}
+                        height={800}
+                        className="object-cover"
+                    />
+                </div>
+
+            </div>
+        </>
+    );
+}//z-40 absolute top-90
