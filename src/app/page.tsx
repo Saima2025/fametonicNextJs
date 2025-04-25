@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
     return (
         <>
-            <div className="bg-neutral-950 sm:flex md:px-15 md:flex-row sm:static">
+            <div className="bg-neutral-950 sm:flex md:px-15 md:flex-row sm:static md:h-svh">
                 <div className="md:flex md:flex-col sm:z-20 md:z-2 sm:min-w-screen md:min-w-md sm:mt-160 md:mt-0 sm:px-15 md:relative sm:static">
                     <p className="text-4xl text-white font-bold sm:text-center md:text-left">Want to Turn Social Media Into a Profitable Career?</p>
                     <p className="text-4xl text-cyan-400 text-shadow-lg/50 [text-shadow:_0_4px_8px_#FC004E] text-[#FC004E] font-bold mt-3
@@ -59,7 +59,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="md:relative sm:absolute md:top-0 sm:top-80 sm:px-15">
+                <div className="absolute md:top-40 sm:top-80 sm:px-15 md:left-200 ">
                     <Image
                         src="/home/homeImage.svg"
                         alt="Picture of the author"
