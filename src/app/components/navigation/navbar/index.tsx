@@ -13,7 +13,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                     height={300}
                     className="flex justify-start"
                 />
-                <button type="button" className="inline-flex items-center md:hidden"
+                <button type="button" className="inline-flex items-center lg:hidden"
                         onClick={toggle}>
                     {/* Menu icon */}
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                     </svg>
                 </button>
                 {/*<div className="w-1/3"></div>*/}
-                <ul className="hidden md:flex gap-x-6 text-white w-3/5 flex justify-end">
+                <ul className="hidden lg:flex gap-x-6 text-white w-3/5 flex justify-end">
                     <li>
                         <Link href="/about">
                             <p>About Us</p>

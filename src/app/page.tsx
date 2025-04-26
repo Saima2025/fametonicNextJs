@@ -10,7 +10,7 @@ export default function Home() {
                         Turn Social Media Into a Profitable Career?</p>
                     <p className="text-4xl text-cyan-400 text-shadow-lg/50 [text-shadow:_0_4px_8px_#FC004E] text-[#FC004E] font-bold mt-3
                      sm:text-center max-sm:text-center lg:text-left">Discover your way to success with Fametonic:</p>
-                    <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center lg:mt-3 sm:mt-8 max-sm:mt-8">
+                    <p className="text-base text-white font-bold inline-flex items-baseline flex items-center lg:mt-5 sm:mt-8 max-sm:mt-8">
                         <Image
                             src="/home/bulletPoint.png"
                             alt="bullet point"
@@ -51,7 +51,7 @@ export default function Home() {
                     <div
                         className="lg:w-1/2 sm:place-content-center max-sm:place-content-center sm:grid max-sm:grid lg:place-content-start lg:flex lg:flex-col">
                         <button type="button"
-                                className="inline-flex justify-center lg:w-full sm:w-lg max-sm:w-md mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase">Get
+                                className="inline-flex justify-center lg:w-full sm:w-lg max-sm:w-sm mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase">Get
                             Started
                             <Image
                                 src="/home/forwardIcon.svg"
