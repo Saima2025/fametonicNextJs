@@ -5,7 +5,7 @@ export default function Home() {
         <>
             <div className="bg-neutral-950 sm:flex max-sm:flex lg:px-15 lg:flex-row sm:static max-sm:static lg:h-svh">
                 <div
-                    className="lg:flex lg:flex-col sm:z-20 max-sm:z-20 lg:z-2 sm:mt-[86%] md:mt-[90%] max-sm:mt-[84%] lg:mt-[1%] sm:px-15 max-sm:px-15">
+                    className="lg:flex lg:flex-col sm:z-20 max-sm:z-20 lg:z-2 sm:mt-[86%] md:mt-[90%] max-sm:mt-[84%] lg:mt-[1%] sm:px-5 max-sm:px-5">
                     <p className="text-4xl text-white font-bold sm:text-center max-sm:text-center lg:text-left">Want to
                         Turn Social Media Into a Profitable Career?</p>
                     <p className="text-4xl text-cyan-400 text-shadow-lg/50 [text-shadow:_0_4px_8px_#FC004E] text-[#FC004E] font-bold mt-3
