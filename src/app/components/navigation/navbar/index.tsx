@@ -4,8 +4,8 @@ import Contacts from "@/app/contacts/page";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
     return (
-        <div className="bg-neutral-950 w-full sticky top-0">
-            <div className="flex justify-around py-12 px-11">
+        <div className="bg-neutral-950 w-full">
+            <div className="flex justify-around py-12 px-11 ">
                 <Image
                     src="/home/fametonicFont.svg"
                     alt="Picture of the author"

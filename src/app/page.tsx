@@ -5,7 +5,7 @@ export default function Home() {
         <>
             <div className="bg-neutral-950 sm:flex max-sm:flex lg:px-15 lg:flex-row sm:static max-sm:static lg:h-svh">
                 <div
-                    className="lg:flex lg:flex-col sm:z-20 max-sm:z-20 lg:z-2 sm:min-w-screen max-sm:min-w-screen lg:min-w-lg sm:mt-[86%] md:mt-[90%] max-sm:mt-[84%] lg:mt-[1%] sm:px-15 max-sm:px-15 lg:relative sm:static max-sm:static">
+                    className="lg:flex lg:flex-col sm:z-20 max-sm:z-20 lg:z-2 sm:mt-[86%] md:mt-[90%] max-sm:mt-[84%] lg:mt-[1%] sm:px-15 max-sm:px-15">
                     <p className="text-4xl text-white font-bold sm:text-center max-sm:text-center lg:text-left">Want to
                         Turn Social Media Into a Profitable Career?</p>
                     <p className="text-4xl text-cyan-400 text-shadow-lg/50 [text-shadow:_0_4px_8px_#FC004E] text-[#FC004E] font-bold mt-3
@@ -13,7 +13,7 @@ export default function Home() {
                     <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center lg:mt-3 sm:mt-8 max-sm:mt-8">
                         <Image
                             src="/home/bulletPoint.png"
-                            alt="Picture of the author"
+                            alt="bullet point"
                             width={20}
                             height={20}
                             className="mr-2"
@@ -21,7 +21,7 @@ export default function Home() {
                     <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
                         <Image
                             src="/home/bulletPoint.png"
-                            alt="Picture of the author"
+                            alt="bullet point"
                             width={20}
                             height={20}
                             className="mr-2"
@@ -29,7 +29,7 @@ export default function Home() {
                     <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
                         <Image
                             src="/home/bulletPoint.png"
-                            alt="Picture of the author"
+                            alt="bullet point"
                             width={20}
                             height={20}
                             className="mr-2"
@@ -37,7 +37,7 @@ export default function Home() {
                     <p className="text-base  text-white font-bold inline-flex items-baseline flex items-center mt-3">
                         <Image
                             src="/home/bulletPoint.png"
-                            alt="Picture of the author"
+                            alt="bullet point"
                             width={20}
                             height={20}
                             className="mr-2"
@@ -51,11 +51,11 @@ export default function Home() {
                     <div
                         className="lg:w-1/2 sm:place-content-center max-sm:place-content-center sm:grid max-sm:grid lg:place-content-start lg:flex lg:flex-col">
                         <button type="button"
-                                className="inline-flex justify-center lg:w-full sm:w-lg max-sm:w-md mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase ">Get
+                                className="inline-flex justify-center lg:w-full sm:w-lg max-sm:w-md mt-3 text-white bg-pink-600 focus:ring-2 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 font-bold rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2 uppercase">Get
                             Started
                             <Image
                                 src="/home/forwardIcon.svg"
-                                alt="Picture of the author"
+                                alt="button forward"
                                 className="pl-2"
                                 width={15}
                                 height={15}
@@ -72,13 +72,14 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute lg:top-40 sm:top-80 max-sm:top-80 sm:px-15 max-sm:px-15 lg:left-200">
+                <div className="absolute lg:top-40 sm:top-80 max-sm:top-80 sm:px-15 max-sm:px-15 lg:left-200"
+                     style={{ display: 'flex', flexDirection: 'column' }}>
                     <Image
                         src="/home/homeImage.svg"
-                        alt="Picture of the author"
-                        width={800}
-                        height={800}
-                        className="object-cover"
+                        alt="home title image"
+                        height={1000}
+                        width={1000}
+                        objectFit="cover" // Controls how the image fills the container
                     />
                 </div>
 
