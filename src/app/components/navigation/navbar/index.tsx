@@ -27,12 +27,12 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 {/*<div className="w-1/3"></div>*/}
                 <ul className="hidden lg:flex gap-x-6 text-white w-3/5 flex justify-end">
                     <li>
-                        <Link href="/about">
+                        <Link href="">
                             <p>About Us</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contacts">
+                        <Link href="">
                             <p>Contacts</p>
                         </Link>
                     </li>
